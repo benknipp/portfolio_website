@@ -11,57 +11,524 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
+
+
 <body>
-  <header>
-    <div class="topnav">
-      <div class="topnav-column-left">
-        <div class="dropdown">
-          <button class="dropbtn" id="menu_button">
-            <svg enable-background="new 0 0 32 32" height="24px" id="Слой_1" version="1.1" viewBox="0 0 32 32" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="Menu">
-            <path d="M1,7h30c0.552,0,1-0.448,1-1c0-0.552-0.448-1-1-1H1C0.448,5,0,5.448,0,6C0,6.552,0.448,7,1,7z" fill="#121313"/>
-            <path d="M31,15H1c-0.552,0-1,0.448-1,1c0,0.552,0.448,1,1,1h30c0.552,0,1-0.448,1-1C32,15.448,31.552,15,31,15z" fill="#121313"/>
-            <path d="M31,25H1c-0.552,0-1,0.448-1,1c0,0.552,0.448,1,1,1h30c0.552,0,1-0.448,1-1C32,25.448,31.552,25,31,25z" fill="#121313"/>
-            </g>
-            </svg>
-          </button>
-          <div class="dropdown-content">
-            <a href="index.html">Home</a>
-            <a href="work.html">Work</a>
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
+  <script src="js/javascript.js">
+  </script>
+  <a id="top"></a>
+  <div class="main-container" id="main-container">
+    <header>
+      <div class="h-con">
+        <div class="item left1">
+          <div class="dropdown">
+            <button class="dropbtn" id="menu_button">
+              <svg enable-background="new 0 0 32 32" height="24px" id="hamburger_menu" version="1.1" viewBox="0 0 32 32" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Menu">
+                  <path d="M1,7h30c0.552,0,1-0.448,1-1c0-0.552-0.448-1-1-1H1C0.448,5,0,5.448,0,6C0,6.552,0.448,7,1,7z" fill="#121313"/>
+                  <path d="M31,15H1c-0.552,0-1,0.448-1,1c0,0.552,0.448,1,1,1h30c0.552,0,1-0.448,1-1C32,15.448,31.552,15,31,15z" fill="#121313"/>
+                  <path d="M31,25H1c-0.552,0-1,0.448-1,1c0,0.552,0.448,1,1,1h30c0.552,0,1-0.448,1-1C32,25.448,31.552,25,31,25z" fill="#121313"/>
+                </g>
+              </svg>
+            </button>
+            <div class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="work.html">Work</a>
+              <a href="contact.html">Contact</a>
+              <a href="about.html">About</a>
+            </div>
           </div>
         </div>
-        <span class="menu">Menu</span>
-      </div>
-      <div class="topnav-column-center">
-        <a href="index.html">
-          <img class="displayed" src="img/logo_new.png" alt="logo" width="163" height="24" id="logo">
-        </a>
-      </div>
-      <div class="topnav-column-right">
-        <a href="http://www.linkedin.com/in/benknipp" target="_blank">
-          <svg class="svg-w-spacing svg-style" xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 122 107">
-            <text id="in" class="cls-1" x="61" y="93.867"><tspan x="61">in</tspan></text>
-          </svg>
-        </a>
-        <a href="https://www.behance.net/benknipp796eb0" target="_blank">
-          <svg class="svg-style" xmlns="http://www.w3.org/2000/svg" width="31" height="24" viewBox="0 0 147 113">
-            <text id="Bē" class="cls-1" x="73" y="96.867"><tspan x="73">B&#275</tspan></text>
+        <div class="item">
+
+        </div>
+        <div class="item">
+          <a href="index.html">
+            <img class="displayed" src="img/logo_new.png" alt="logo" width="163" height="24" id="logo">
+          </a>
+        </div>
+        <div class="item">
+          <a href="http://www.linkedin.com/in/benknipp" target="_blank">
+            <svg id="linkedin" class="cl-change-svg spin-div" xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 122 107">
+              <text id="in" class="cls-1" x="61" y="93.867"><tspan x="61">in</tspan></text>
+            </svg>
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://www.behance.net/benknipp796eb0" target="_blank">
+            <svg id="behance" class="cl-change-svg spin-div" xmlns="http://www.w3.org/2000/svg" width="31" height="24" viewBox="0 0 147 113">
+              <style>
+              .cls-1 {
+                font-size: 120px;
+                text-anchor: middle;
+                font-family: "Proza Libre";
+                font-weight: 700;
+              }
+            </style>
+            <text id="Bē" class="cls-1" x="71" y="96.867"><tspan x="71">B&#275;</tspan></text>
           </svg>
         </a>
       </div>
     </div>
+    <div id="bread-nav">
+      <a href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="#">Curl</a>
+    </div>
   </header>
-  <br>
-  <br>
-  <br>
-  <div class="project">
-    <h1 id="header">Project Placeholder Site</h1>
+
+  <!--Main container-->
+  <div class="b-con">
+
+    <!--Quote-->
+    <div class="col1"></div>
+    <div class="col2"></div>
+    <div class="col3"></div>
+    <div class="col4">
+      <br>
+      <p id="curl-quote">
+        &#34;The significant problems we have cannot be solved at the same level of thinking with which
+        we created them.&#34;
+        <br>
+        <br>
+
+        <b>
+          - Albert Einstein (Famous Problem Solver) -
+        </b>
+      </p>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 1-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">01</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">Project Brief</h1>
+    </div>
+    <div class="col4">
+      <p>
+        Days on the water are meant to be everything but stressful therefore it&#39;s good practice to
+        check the conditions of the wind, waves, and weather near the body of water where we will
+        be having fun.
+      </p>
+      <p>
+        Existing weather apps aren&#39;t meeting the goal of displaying complex weather data in an
+        accessible, easy-to-comprehend way, especially when it comes to surfing.
+      </p>
+      <p>
+        This project seeks to rectify this. By applying best practices for UX we want to explore
+        what an app designated for surfers has to look like to let them enjoy their favourite past-time.
+      </p>
+      <p>
+        One of the key issues with existing apps is that the display of weather data to the user is
+        very complex. An app with simple display of information and easy to understand content will
+        serve as the main focal point in the research and design effort.
+      </p>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 2-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">02</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">Design Process</h1>
+    </div>
+    <div class="col4">
+      <p>
+        Every approach to understanding and resolving a user-centered problem requires the thorough
+        application of the UX Design process. This process can be exhibitied by a framework with five
+        distinct phases. Discover, Define, Design, Test and Deliver.
+      </p>
+      <img class="myimage" src="img/process.png" alt="UX Process">
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 3-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">03</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">Understanding the Problem</h1>
+    </div>
+    <div class="col4">
+      <img src="img/stone.png" id="stone" alt="Forecast Stone">
+      <h2 id="prob">Problem Statement</h2>
+      <div id="statements">
+        <p>
+          Surfers miss out on opportunities to surf due to the absence of correct and surf specific
+          details in standard weather applications
+        </p>
+        <br>
+        <h2 id="hypo">Hypothesis</h2>
+        <p>
+          A real-time weather app dedicated to surfers which provides the most recent forecast and
+          recommendation on a location
+        </p>
+      </div>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 4-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">04</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">Competitive Analysis</h1>
+    </div>
+    <div class="col4">
+      <p class="segment-header">
+        To understand the environment a potential solution would be introduced to, a thorough analysis
+        of the competitive landscape is required.
+      </p>
+      <br>
+      <br>
+      <div id="analysis">
+        <img src="img/4.png" alt="Analysis">
+      </div>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 5-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">05</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">UX Review</h1>
+    </div>
+    <div class="col4">
+      <br>
+      <p class="segment-header">
+        An in-depth analysis is being conducted on the current UX Design of competitor Surfline in their mobile app.
+      </p>
+      <a href="img/5.png" target="_blank">
+        <div id="screen">
+          <img src="img/5.png" alt="Surfline Screens">
+        </div>
+      </a>
+      <br>
+      <p>
+        Surfline delivers great screens with easy to use interfaces. Feedback however shows, that users find the level of detail to complex and the app requires multiple screens in order to display all the data without delivering a
+        recommendation to the user whether the conditions are favourable in the first place.
+      </p>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 6-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">06</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">Research</h1>
+    </div>
+    <div class="col4">
+      <div id="result">
+        <img src="img/6.png" alt="Research Result">
+      </div>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 7-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">07</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">User Interviews & Key Learnings</h1>
+    </div>
+    <div class="col4">
+      <p class="segment-header">
+        After analyzing the interviews and combining the findings a few key pain points / opportunities were identified.
+      </p>
+      <div id="interviews">
+        <img src="img/7.png" alt="Interviews">
+      </div>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 8-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">08</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">User Personas</h1>
+    </div>
+    <div id="gallery">
+      <div>
+        <a href="img/8-1.jpg" target="_blank"><img src="img/8-1s.png" id="thumb1" alt="Persona"></a><br>
+        <a href="img/8-2.jpg" target="_blank"><img src="img/8-2s.png" id="thumb2" alt="Persona"></a><br>
+        <a href="img/8-3.jpg" target="_blank"><img src="img/8-3s.png" id="thumb3" alt="Persona"></a><br>
+      </div>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 9-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">09</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">User Journey</h1>
+    </div>
+    <div class="col4">
+      <div id="userjourney_header">
+        <p>
+          For the main user personas a user journey was captured and combined with a mental model. Let&#39;s follows Tom&#39;s journey a bit further.
+        </p>
+        <p>
+          Tom is a busy executive based in San Diego. It&#39;s Saturday and Tom want to go surfing at one of his favourite spots.
+        </p>
+        <p>
+          Before he heads out though, he wants to make sure the weather is fine and opens his weather app to check.
+        </p>
+      </div>
+      <div id="userjourney">
+        <img src="img/9.png" alt="User Journey">
+      </div>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 10-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">10</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">User Flow</h1>
+    </div>
+    <div class="col4">
+      <p class="segment-header">
+        For each user a detailed Task Analysis was conducted and a corresponding User Flow generated. Let&#39;s take a look at Tom&#39;s and Nicole&#39;s user flows.
+      </p>
+      <br>
+      <div id="userflow">
+        <img src="img/10.png" alt="Userflow">
+      </div>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 11-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">11</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">Architecture</h1>
+    </div>
+    <div class="col4">
+      <p class="segment-header">
+        By conducting an online card sorting using OptimalSort, the proposed sitemap could be simplified and the main
+        segments used to navigate the architecture were reduced from an initial seven to a total of four.
+      </p>
+      <br>
+      <img src="img/11.png" id="architecture" alt="Architecture">
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 12-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">12</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">Design Fidelity</h1>
+    </div>
+    <div class="col4">
+      <div class="sub-header">
+        <h3>Launch Screen</h3>
+      </div>
+      <div class="screen2">
+        <img src="img/12-1.png" alt="Fidelity">
+      </div>
+      <div class="context">
+        <p>
+          The launch screen and logo design has gone through various iterations. These iterations saw alternating placements, inclusion of the launch screen as part of the on-boarding process and separation from
+          the on-boarding in the final iterations.
+        </p>
+        <p>
+          Starting with the high-fidelity stages and before approaching usability testing, the logo was updated and the app name was changed to Curl from the working title of VELA to make the app more distin-
+          guishable.
+        </p>
+        The app name Curl is derived from surfer lingo and refers to the section of the wave face that curls over, right before it breaks. Surfers try to stay as close to the curl as possible since it is the most power-
+        ful part of the wave.
+        <p>
+        </p>
+      </div>
+      <div class="sub-header">
+        <h3>On-Boarding</h3>
+      </div>
+      <div class="screen2">
+        <img src="img/12-2.png"  alt="Fidelity">
+      </div>
+      <div class="context">
+        <p>
+          The on-boarding process and corresponding screens has remained true to it’s core with updates in the high-fidelity stages to allow for easier display of the core features and since the four icon square of
+          the initial designs, which was also used on the home screen for navigation, was abandoned due to duplication of functions and bad UX design.
+        </p>
+      </div>
+      <div class="sub-header">
+        <h3>Forecast Screen</h3>
+      </div>
+      <div class="screen2">
+        <img src="img/12-3.png" alt="Fidelity">
+      </div>
+      <div class="context">
+        <p>
+          The forecast screen posed considerable challenge in order to find a balance between displaying the necessary details while not overcrowding the individual screens.
+        </p>
+        <p>
+          While the initial idea of separate screens was soon accomodated by the use of a segmented control, the number of data fields was quite significant. In order to make the screens more easy to digest, the data
+          points only reflect one day (initially up to 7) and the map has been abolished in order to gain screen retail space for the placement of icons and text. A date picker allows for the data selection of individual
+          days.
+        </p>
+        As a result of usability testing and the review for accessibility the number of graphical elements to display information was increased substantially.
+        <p>
+        </p>
+      </div>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 13-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">13</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">Prototype</h1>
+    </div>
+    <div class="col4">
+      <iframe id="invision" class="video" width="438" height="930" src="http://invis.io/FCN87PZZB5Y" allowfullscreen></iframe>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 14-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">14</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">Accessibility</h1>
+    </div>
+    <div class="col4">
+      <div id="access">
+        <img src="img/14.png" alt="Accesibility">
+      </div>
+    </div>
+    <div class="col5"></div>
+
+    <!--Segment 15-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">15</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">A/B Testing</h1>
+    </div>
+    <div class="col4">
+      <p class="segment-header">
+        Based on feedback during the usability test study for Curl, enhancements and updates to the design were proposed for the next iteration.
+        <br>
+        <br>
+        To ensure that these updates would be preferential in design to the screens in the usability test a preference test was conducted.
+      </p>
+      <div id="testing">
+        <img src="img/15.png" alt="Testing">
+      </div>
+      <p>
+        The preference test results are clearly indicating that the updated version is the more preferred with 19 of 22 participants choosing the updated screen over the screen used during the usability test.
+      </p>
+      <p>
+        The difference is deemed 99 % likely to be statistically significant. The updated screen will therefore be incorporated into the next iteration of the Curl prototype.
+      </p>
+      <p>
+        To retrace the changes which have resulted in the screen update please check the animation below.
+      </p>
+      <br>
+      <video class="video" width="524" height="930" controls src="vid/AB_Animation.mp4?rel=0"></video>
+    </div>
+    <div class="col5"></div>
+
+
+    <!--Segment 16-->
+    <div class="col1"></div>
+    <div class="col2">
+      <h1 class="segment-number">16</h1>
+      <a href="#top" class="back">
+        &#x25B2; Back to top.
+      </a>
+    </div>
+    <div class="col3">
+      <h1 class="segment-title">Curl App - Promo</h1>
+    </div>
+    <div class="col4">
+
+      <iframe id="youtube" src='https://www.youtube.com/embed//41xYRUn5ZaI' width="1280" height="720" allowfullscreen></iframe></div>
+    </div>
+    <div class="col5"></div>
   </div>
-  <div class="project">
-    <a href="#logo" style="text-decoration:none">Back to top.</a>
-  </div>
+
+
+  <h2>Thank You!</h2>
+  <br>
+  <br>
+  <a href="#top" class="back">
+    &#x25B2; Back to top.
+  </a>
+
+
 </body>
 
 </html>
