@@ -219,6 +219,7 @@ header {}
     width: 100%;
     display: inline-block;
     text-align: center;
+    vertical-align: top;
   }
 
   .col-n {
@@ -226,6 +227,16 @@ header {}
     margin-left: 1%;
     margin-right: 1%;
     float: left;
+    vertical-align: top;
+    }
+
+  .col-n-curl {
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+    vertical-align: top;
+    position: relative;
   }
 
   .col-n:last-child {
@@ -255,6 +266,27 @@ header {}
     width: 532px;
     height: 448px;
   }
+
+  .project-details {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0; /* Reset this to 0 */
+  padding: 10px;
+  background: #4A90E2;
+  color: white;
+  font-weight: bold;
+  text-align: justify;
+}
+
+  .project-details > a, a:visited, a:hover {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+    }
 
   /* Curl Project Page */
 
@@ -494,7 +526,7 @@ header {}
     border: 0;
   }
 
-  /* Animations */
+    /* Animations */
 
   .cl-change-svg:hover {
     fill: #4A90E2;
@@ -1349,6 +1381,15 @@ header {}
     width: 16px;
     height: 16px;
   }
+
+.col-n > p, h4 {
+  width: 375px;
+}
+
+.col-n-curl > p {
+  width: 375px;
+  font-size: 14px;
+}
 
   .col-n>img {
     max-width: 320px;
